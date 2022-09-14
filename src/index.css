@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
+
+
+body {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  background-color: #0f0f0f;
+  height:600px;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction:  column;
+  align-items: center;
+  justify-content: center;
+}
+
+.apptitle{
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  font-weight:bold;
+  font-size:60px;
+}
+
+.button{
+  border:none;
+  border-radius:5px;
+  padding:10px 30px;
+  font-family: 'Patrick Hand', cursive;
+  font-size:20px;
+}
